@@ -17,6 +17,7 @@ public class UrlService {
   private final UrlRepository urlRepository;
 
   private final EncoderUtil encoderUtil;
+  int i = 10;
 
   public UrlService(@Value("${app.url}") String baseUrl,
       UrlRepository urlRepository,
